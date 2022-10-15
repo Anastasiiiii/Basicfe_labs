@@ -1,0 +1,43 @@
+body {
+    background-color: aliceblue;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Arial', 'Times New Roman';
+    font-size: 12px;
+}
+.container {
+    max-width: 50%;
+    max-height: 80%;
+}
+.header {
+    display: inline-flex;
+}
+
+.header_image {
+    float: left;
+    background-color: #A60530;
+    padding: 7%;
+}
+.header_text {
+    float: right;
+    padding: 3%;
+    background-color: #590F3F;
+    text-align: justify;
+}
+.body_text {
+    padding: 3%;
+    text-align: justify;
+    background-color: #0F4C59;
+}
+.footer_image {
+    text-align: center;
+    background-color: #D95C14;
+}
+#header_image {
+    height: 100%;
+    width: 100%;
+}
+#footer_image {
+    width: 50%;
+    padding: 3%;
+    padding-left: 5%;
+}

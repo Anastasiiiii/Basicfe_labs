@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   td {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+   #first_row {
+    background-color: #628f8f;
+    color: #001A22;
+   }
+   #first_row:hover {
+    background-color: #F59862;
+   }
+   #second_row {
+    background-color: #f5f562;
+    color: #000D12;
+   }
+   #second_row:hover {
+    background-color: #AA62F5;
+   }
+   #third_row, #fourth_row {
+    height: 20px;
+   }
+   #square {
+    height: 125px;
+    width: 125px;
+    background-color: rgb(172, 30, 30);
+    margin:30px;
+   }
+   .squeres {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 3px;
+   }
+   #small_square {
+    transform: translate(50px, 30px);
+   }
+   #small_square_2 {
+    transform: translate(50px, 25px);
+   }
+   #small_square_3 {
+    transform: translate(50px, 20px);
+   }
+   #small_square_4 {
+    transform: translate(27px, -25px);
+   }
+   #small_square_5 {
+    transform: translate(71px, -50px);
+   }
+   .position_cross {
+    position: relative;
+   }
+   .transform_cross {
+    transform: translate(150px, -155px);
+   }
