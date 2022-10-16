@@ -9,8 +9,8 @@
     <body>
         <h2>Фартушняк Анастасія Костянтинівна</h2>
         <p>Місце народження: 26 вересня 2002 року, м.Київ</p>
-        <p id = "education" onclick="changeColor()">Освіта:</p>
-        <p class = "school" onclick="colorChange()">
+        <p id = "education" onclick="changeColor()" >Освіта:</p>
+        <p class = "school"  onclick="colorChange()">
             Київська інженерна гімназія, м.Київ
         </p>
         <p>
@@ -38,7 +38,14 @@
             Париж - столиця Франції, розташований на берегах Сени в північній частині країни. Традиційно лівий берег річки вважався богемним. Його жителями були професори, студенти, артисти, музиканти. І не дивно, адже саме тут знаходяться Сорбонна і Латинський квартал. А ось правобережжя Парижа - це адміністративний і діловий центр. Тут знаходиться королівський палац Лувр, а з недавніх пір хмарочоси ділового кварталу Дефанс.    
         </p>
         <a href = "https://kraina.one/turyzm/opis-parizha-pam-yatki-i-krasivi-mistsya.html" target = "_blank">
-            <img src="paris.jpg" height="50%" width="50%">
+            <img src="paris.jpg" height="50%" width="50%" id = "img">
         </a>
+        <div id = "box"></div>
+        <p>
+            <button type = "button" id="add" onclick="addPicture()">Додати</button>
+            <button type = "button" id="increase" onclick="increaseThePicture()">Збільшити</button>
+            <button type = "button" id="decrease" onclick="decreaseThePicture()">Зменшити</button>
+            <button type = "button" id="delete" onclick="deleteThePicture()">Видалити</button>
+        </p>
     </body>
 </html>
