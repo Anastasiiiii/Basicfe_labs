@@ -1,5 +1,5 @@
 function changeColor() {
-    document.getElementById("education").style.color = '#F2E3D5';
+	document.getElementById("education").style.color = '#F2E3D5';
     document.getElementById("education").style.backgroundColor = '#012E40';
 }
 
@@ -18,23 +18,27 @@ function addPicture() {
 	  );
 	  image.setAttribute("width", 50 + "%");
 	  image.setAttribute("height", 50 + "%");
+	  image.id = 'copy';
 	  const box = document.getElementById('box');
       box.appendChild(image);
 }
 
+let scaleValue = 1;
 function increaseThePicture() {
 	let img = document.getElementById("img");
-	img.setAttribute("width", 60 + "%");
-	img.setAttribute("height", 60 + "%");
+	scaleValue +=0.1 ;
+	img.style.transform = `scale(${scaleValue})`;
 }
 
 function decreaseThePicture() {
 	let img = document.getElementById("img");
-	img.setAttribute("width", 40 + "%");
-	img.setAttribute("height", 40 + "%");
+	scaleValue -=0.1 ;	
+	img.style.transform = `scale(${scaleValue})`;
 }
 
+
 function deleteThePicture() {
-	const image = document.getElementById("img")
+	const image = document.getElementById("copy")
 	image.remove();
 }
+
