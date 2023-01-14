@@ -1,9 +1,9 @@
 table {
-    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border-collapse: collapse; 
    }
    td {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid black; /* Параметры рамки */
+    padding: 3px; 
+    border: 1px solid black; 
    }
    #first_row {
     background-color: #628f8f;
@@ -55,3 +55,5 @@ table {
    .transform_cross {
     transform: translate(150px, -155px);
    }
+
+

@@ -1,0 +1,103 @@
+body {
+    align-items: center;
+    background-color: #012E40;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    
+    margin-top: 30px;
+  }
+ 
+.form {
+    background-color: #024959;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+  }
+
+  #first_form_div {
+    height: 40px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+#form_div {
+    height: 40px;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .input {
+    background-color: rgba(2, 103, 115, .5  );
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+
+
+input.input::placeholder {
+    color: azure;
+    font-size: x-small;
+    padding: 3px;
+}
+
+input.input {
+    color: azure;
+    font-size: x-small;
+    padding: 15px;
+}
+
+#table_squeres {
+    border-collapse: collapse;
+    position: fixed; top: 15%; 
+}
+
+td {
+    border: solid 1px azure;
+    color: azure;
+    padding: 3px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.btn {
+    background-color: #012E40;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 33px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: azure    ;
+}
+
+  
+
+
+
+
