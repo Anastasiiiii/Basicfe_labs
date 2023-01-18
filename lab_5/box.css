@@ -1,20 +1,20 @@
 body {
-    align-items: center;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-  }
-  #table_squeres {
-    border-collapse: collapse;
-    position: fixed; top: 15%; 
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+#table_squeres {
+  border-collapse: collapse;
+  position: fixed; top: 15%; 
 }
 
 td {
-    border: solid 1px rgb(17, 17, 17);
-    color: rgb(17, 17, 17);
-    padding: 3px;
-    text-align: center;
-    width: 70px;
-    height: 70px;
+  border: solid 1px rgb(17, 17, 17);
+  color: rgb(17, 17, 17);
+  padding: 3px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
 }
